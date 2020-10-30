@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.subspec "RxCocoa" do |co|
     co.source_files  = "Source/RxCocoa"
     co.frameworks  = "Foundation"
-    co.dependency "RxCocoa", '~> 5.0'
+    co.dependency "RxCocoa"
     co.dependency "RxSwiftExt/Core"
   end
 end
